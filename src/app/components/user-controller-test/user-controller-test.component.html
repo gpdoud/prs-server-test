@@ -1,0 +1,11 @@
+<div>
+    <div class="h3">Test User Controller</div>
+    <button (click)="testInsert()" [ngClass]="btnInsert">Test Insert/Create</button> |
+    <button (click)="testList()" [ngClass]="btnList">Test List/GetAll</button>
+    <span *ngIf="newUser"> |
+        <button (click)="testGet()" [ngClass]="btnGet">Test Get</button> |
+        <button (click)="testUpdate()" [ngClass]="btnUpdate">Test Update/Change</button> |
+        <button (click)="testDelete()" [ngClass]="btnDelete">Test Delete/Remove</button> |
+        <button (click)="testLogin()" [ngClass]="btnLogin">Test Login</button>
+    </span>
+</div>

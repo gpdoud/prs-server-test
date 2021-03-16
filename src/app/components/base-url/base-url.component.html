@@ -1,0 +1,7 @@
+<div>
+    <label>Base url port:
+        <input [(ngModel)]="portNbr" type="number">
+    </label>
+    <button (click)="save()" class="btn btn-primary">Save</button>
+    <label *ngIf="baseurl">Base url is: <b>{{baseurl}}</b></label>
+</div>
